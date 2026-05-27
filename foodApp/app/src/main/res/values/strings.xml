@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">foodApp</string>
+    <string name="nextbtn">Next</string>
+    <string name="logo">this is logo </string>
+    <string name="bg">bg</string>
+    <string name="welcome">food quality</string>
+    <string name="title">Find Your Comfort \n Food Here</string>
+    <string name="tegline">Burgers Because no great story strated with salad</string>
+    <string name="food_desc">Food Ninja is Where your \n comfort food live</string>
+    <string name="food_delivery">Enjoy fast and smooth \n delivery at your doorstep.</string>
+    <string name="loginBox">loginParent\n</string>
+    <string name="loginname">Login With Us</string>
+</resources>

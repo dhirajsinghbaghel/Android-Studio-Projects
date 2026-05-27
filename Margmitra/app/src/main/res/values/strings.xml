@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Margmitra</string>
+    <string name="current_location_tooltip"><![CDATA[<string name=\"current_location_tooltip\"> वर्तमान स्थान उपयोग करें</string>]]></string>
+    <string name="profile">Profile</string>
+    <string name="menu">menu</string>
+    <string name="from_placeholder">From Location\n</string>
+    <string name="chip_college">Collage</string>
+    <string name="cta_search_ride">Search Ride</string>
+</resources>

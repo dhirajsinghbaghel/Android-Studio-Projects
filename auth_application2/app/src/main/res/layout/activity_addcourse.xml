@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_courseActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#DFE6F4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:rotationX="6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="-200dp"
+                android:background="@drawable/halfcircle"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:textAlignment="center"
+                tools:ignore="RtlCompat,UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-100dp"
+                    android:text="@string/sell_your_course_online"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="-30dp"
+                    android:text="@string/creat_course"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <EditText
+                style="@style/inputdesignstyle"
+                android:id="@+id/coursename"
+                android:autofillHints=""
+                android:hint="Couse Name"
+                android:inputType="text"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/courseprice"
+                style="@style/inputdesignstyle"
+
+
+                android:inputType="text"
+                android:hint="@string/course_price" />
+            <EditText
+                android:id="@+id/courseduration"
+                style="@style/inputdesignstyle"
+
+
+                android:inputType="text"
+                android:hint="@string/course_duration" />
+
+            <EditText
+                android:id="@+id/coursedescription"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                style="@style/inputdesignstyle"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/course_description"
+                android:inputType="textMultiLine" />
+            <Button
+                android:id="@+id/coursecreatebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_course"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

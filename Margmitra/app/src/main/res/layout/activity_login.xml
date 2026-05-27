@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/appbg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/newlogo"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register With Us"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Full Name"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:background="@drawable/inputbg"
+                    android:layout_marginBottom="20dp"
+                    tools:ignore="Autofill,HardcodedText,TextFields" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Email"
+                        android:padding="15dp"
+                        android:textSize="17sp"
+                        android:background="@drawable/inputbg"
+                        android:layout_marginBottom="20dp"
+                        tools:ignore="Autofill,HardcodedText,TextFields" />
+                <EditText
+                    android:id="@+id/etDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Date Of Birth"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:focusable="false"
+                    android:cursorVisible="false"
+                    android:background="@drawable/inputbg"
+                    tools:ignore="HardcodedText,TextFields" />
+                <RadioGroup
+                    android:id="@+id/rgGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/inputbg"
+                     >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gender"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/rbMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+
+                        android:textColor="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                    <RadioButton
+                        android:id="@+id/rbFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="16dp"
+
+                        tools:ignore="HardcodedText" />
+
+
+                </RadioGroup>
+
+                <!-- Password field -->
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/inputbg"
+
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:padding="15dp"
+                    android:textSize="17sp"
+                    android:background="@drawable/inputbg"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword"
+                    tools:ignore="HardcodedText" />
+
+                <!-- Register Button -->
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:backgroundTint="@android:color/holo_orange_dark"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:padding="12dp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    tools:ignore="HardcodedText" />
+
+
+
+            </LinearLayout>
+            
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

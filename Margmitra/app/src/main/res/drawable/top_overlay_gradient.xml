@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Yeh file res/drawable/ mein save karein.
+  Yeh ek gradient banata hai jo Top Overlay (menu icon, avatar) ke peeche rehta hai,
+  taaki woh map ke upar saaf dikhein.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+    android:startColor="#33000000"
+    android:endColor="@android:color/transparent"
+    android:type="linear" />
+</shape>

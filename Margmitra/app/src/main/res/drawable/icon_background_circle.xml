@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Yeh file res/drawable/ mein save karein.
+  Yeh Menu Icon ke peeche ek halka transparent (80% opacity)
+  safed circle banata hai.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"> <!-- oval shape poora circle banayega -->
+
+    <solid android:color="#CCFFFFFF" /> <!-- 80% Transparent White -->
+
+</shape>

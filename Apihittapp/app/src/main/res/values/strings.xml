@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Apihittapp</string>
+    <string name="sell_your_course_online" />
+    <string name="creat_course" />
+    <string name="course_price">Course Price</string>
+    <string name="course_duration">Course Duration\n</string>
+    <string name="course_description">Course Description\n</string>
+    <string name="create_course">Create Course</string>
+</resources>

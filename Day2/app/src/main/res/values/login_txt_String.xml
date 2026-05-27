@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">MAJOR INCIDENT</string>
+    <string name="login_subTitel"> Responsive App</string>
+    <string name="login_usernam">Username</string>
+    <string name="loginPassword">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_forgote"> Forgote Password</string>>
+
+</resources>

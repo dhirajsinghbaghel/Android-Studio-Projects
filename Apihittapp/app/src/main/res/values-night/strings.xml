@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="course_duration">Course Duration\n</string>
+    <string name="course_description">Course Description\n</string>
+    <string name="create_course">Create Course</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">auth_application</string>
+    <string name="flaying">Flaying</string>
+    <string name="pay_now">pay now</string>
+    <string name="hii_user">Hii User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sell_your_course_online">Sell your course online</string>
+    <string name="creat_course">Creat Course</string>
+    <string name="course_duration">Course Duration</string>
+    <string name="course_price">Course Price</string>
+    <string name="description">Description</string>
+    <string name="course_description">Course Description</string>
+    <string name="create_course">Create Course</string>
+    <string name="register_account">Register Account</string>
+    <string name="here">Here</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="enter_your_email_id">Enter Your Email Id</string>
+    <string name="create_password">Create Password</string>
+    <string name="register_with_us">Register With Us</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="choose_an_authentication_method">Choose an authentication method</string>
+    <string name="register">Register</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Auth_application" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Theme.Auth_application" parent="Base.Theme.Auth_application" />
+    <style name="inputdesignstyle">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/inputdesign</item>
+        <item name="android:ems">10</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+
+
+
+    </style>
+</resources>

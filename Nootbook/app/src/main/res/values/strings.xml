@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="note_book">Note book</string>
+    <string name="ragisternow">Ragister Now</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_id_login">Email Id</string>
+    <string name="login_here">Login Here</string>
+    <string name="already_have_account_login_now">Already have account ? Login now</string>
+    <string name="logout">Logout</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="processing">Processing</string>
+</resources>

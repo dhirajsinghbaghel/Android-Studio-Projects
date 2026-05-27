@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">foodApp</string>
+    <string name="next_btn">Next</string>
+    <string name="logo">this is logo </string>
+    <string name="bg">bg</string>
+    <string name="welcome">food quality</string>
+    <string name="title">Find Your Comfort \n Food Here</string>
+    <string name="teg_line">Burgers Because no great story started with salad</string>
+    <string name="food_desc">Food Ninja is Where your \n comfort food live</string>
+    <string name="food_delivery">Enjoy fast and smooth \n delivery at your doorstep.</string>
+    <string name="login_Box">loginParent\n</string>
+    <string name="login_dir">Login With Us</string>
+    <string name="login_userNameHInt">Enter Your Email Id </string>
+    <string name="login_passwordHInt">Enter Your Password </string>
+    <string name="login_btnTxt">Login</string>
+    <string name="login_newUser">New User Create Account</string>
+    <string name="res_userName">Enter Your Name</string>
+    <string name="res_userMobile">Enter Your Mobile Number</string>
+    <string name="res_freeTxt">Signup Free </string>
+    <string name="login_pageText">Ragisterd User Sign In</string>
+    <string name="nickName">Enter Your Nick Name</string>
+    <string name="address">Enter Your Address </string>
+</resources>
